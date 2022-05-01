@@ -1,0 +1,544 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sat Jun 19 11:04:50 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/gpoch/Documents/gabe/Gabes_Stuff/nesemu/programfinal
+# default
+SHELL := sh.exe
+# 
+ environment
+WINDIR = C:\windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\gpoch\OneDrive - BYU
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\gpoch\AppData\Roaming\Code\CachedData\507ce72a4466fbb27b715c3722558bb15afa9f48
+# environment
+TMP = C:\Users\gpoch\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from `makefile', line 1)
+OBJS = CPU6502.o CPUBus.o Emulator.o helper.o main.o Memory.o Nesrom.o PPU2C02.o PPUBus.o Controller.o
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-468ede8d-b76b-499f-b0a0-2243387b30c1-sock
+# environment
+VSCODE_CWD = C:\Users\gpoch\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Wiimm\WIT;C:\Program Files (x86)\ffmpeg\ffmpeg-N-102355-g7c451b609c-win64-gpl\bin;C:\Users\gpoch\OneDrive\Documents\youtube-dl;C:\Program Files\dotnet\;C:\Users\gpoch\OneDrive\Documents\passwords;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\gpoch\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\gpoch\AppData\Local\Programs\Python\Python37\;C:\Users\gpoch\AppData\Local\Microsoft\WindowsApps;C:\Users\gpoch\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Wiimm\WIT;C:\Users\gpoch\.dotnet\tools;C:\Users\gpoch\Documents\passwords;
+# environment
+ONLINESERVICES = Online Services
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\gpoch
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11872_TPUJZIWXZRKRVECO
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-IPMU3RV
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = gpoch
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-IPMU3RV
+# environment
+ONEDRIVECONSUMER = C:\Users\gpoch\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-IPMU3RV
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 5)
+CC = g++
+# makefile (from `makefile', line 2)
+SOURCE = CPU6502.cpp CPUBus.cpp Emulator.cpp helper.cpp main.cpp Memory.cpp Nesrom.cpp PPU2C02.cpp PPUBus.cpp Controller.cpp
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\gpoch\OneDrive - BYU
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 7)
+LFLAGS = -lstdc++ 
+# environment
+LOCALAPPDATA = C:\Users\gpoch\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := mak 
+e.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c6f6b6360643688e6da3475ad4154f83-1.57.1-main-sock
+# environment
+HOMEPATH = \Users\gpoch
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+REGIONCODE = NA
+# environment
+SYSTEMROOT = C:\windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+PLATFORMCODE = KV
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\gpoch\AppData\Roaming
+# environment
+TEMP = C:\Users\gpoch\AppData\Local\Temp
+# environment
+COMSPEC = C:\windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 3)
+HEADER = CPU6502.h CPUBus.h Emulator.h Memory.h Nesrom.h PPU2C02.h PPUBus.h Controller.h
+# makefile (from `makefile', line 4)
+OUT = mario
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# makefile (from `makefile', line 6)
+FLAGS = -std=c++11 -g -c -Wall
+# environment
+PROCESSOR_REVISION = a502
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 11872
+# e 
+nvironment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-IPMU3RV
+# variable set hash-table stats:
+# Load=102/1024=10%, Rehash=0, Collisions=11/127=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\gpoch\Documents\passwords (key C:/Users/gpoch/Documents/passwords, mtime 1622915858): 8 files, no impossibilities.
+# C:\windows\System32\WindowsPowerShell\v1.0\ (key C:/windows/System32/WindowsPowerShell/v1.0/, mtime 1614358662): 30 files, no impossibilities.
+# C:\windows\System32\Wbem (key C:/windows/System32/Wbem, mtime 1621070210): 154 files, no impossibilities.
+# . (key c:/Users/gpoch/Documents/gabe/Gabes_Stuff/nesemu/programfinal, mtime 1624101189): 52 files, no impossibilities.
+# C:\Program Files\Wiimm\WIT (key C:/Program Files/Wiimm/WIT, mtime 1620202216): 72 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1619033237): 10 files, no impossibilities.
+# C:\Users\gpoch\AppData\Local\Microsoft\WindowsApps (key C:/Users/gpoch/AppData/Local/Microsoft/WindowsApps, mtime 1623998760): 27 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1620852481): 10 files, no impossibilities.
+# C:\windows\System32\OpenSSH\: could not be stat'd.
+# C:\windows (key C:/windows, mtime 1623404112): 120 files, no impossibilities.
+# C:\Program Files (x86)\ffmpeg\ffmpeg-N-102355-g7c451b609c-win64-gpl\bin (key C:/Program Files (x86)/ffmpeg/ffmpeg-N-102355-g7 
+c451b609c-win64-gpl/bin, mtime 1620276997): 5 files, no impossibilities.
+# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin (key C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin, mtime 1624090229): 58 files, no impossibilities.
+# C:\Users\gpoch\OneDrive\Documents\passwords: could not be stat'd.
+# C:\Users\gpoch\AppData\Local\Programs\Python\Python37\ (key C:/Users/gpoch/AppData/Local/Programs/Python/Python37/, mtime 1620852282): 17 files, no impossibilities.
+# C:\Users\gpoch\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/gpoch/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1620853325): 8 files, no impossibilities.
+# C:\windows\system32 (key C:/windows/system32, mtime 1623772454): 3008 files, no impossibilities.
+# C:\Users\gpoch\OneDrive\Documents\youtube-dl: could not be stat'd.
+# C:\Users\gpoch\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/gpoch/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1623967705): 4 files, no impossibilities.
+# C:\Users\gpoch\.dotnet\tools: could not be stat'd.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1619033245): 5 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1624093017): 5 files, no impossibilities.
+
+# 3593 files, no impossibilities in 21 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+Controller.o: Controller.cpp
+#  Implicit rule search has  
+not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 43):
+	$(CC) $(FLAGS) Controller.cpp 
+	
+
+all: CPU6502.o CPUBus.o Emulator.o helper.o main.o Memory.o Nesrom.o PPU2C02.o PPUBus.o Controller.o
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  commands to execute (from `makefile', line 10):
+	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
+	
+
+CPUBus.o: CPUBus.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:37
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 16):
+	$(CC) $(FLAGS) CPUBus.cpp 
+	
+
+PPUBus.o: PPUBus.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 40):
+	$(CC) $(FLAGS) PPUBus.cpp 
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Emulator.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-19 02:44:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Memoryppu.cpp:
+#  Implicit rule sear 
+ch has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-19 02:22:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Nesrom.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-19 03:57:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+helper.o: helper.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 22):
+	$(CC) $(FLAGS) helper.cpp 
+	
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-19 02:44:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+PPU2C02.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-19 04:14:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+CPU6502.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-19 01:39:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Re 
+hash=0, Collisions=0/0=0%
+
+# Not a target:
+Memory.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-23 18:05:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Controller.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Emulator.o: Emulator.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 19):
+	$(CC) $(FLAGS) Emulator.cpp 
+	
+
+Memoryppu.o: Memoryppu.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `ma 
+kefile', line 31):
+	$(CC) $(FLAGS) Memoryppu.cpp 
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 46):
+	rm -f $(OBJS) $(OUT)
+	
+
+# Not a target:
+CPUBus.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-23 18:05:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+PPUBus.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Nesrom.o: Nesrom.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 34):
+	$(CC) $(FLAGS) Nesrom.cpp 
+	
+
+main.o: main.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:41
+ 
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 25):
+	$(CC) $(FLAGS) main.cpp 
+	
+
+PPU2C02.o: PPU2C02.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Last modified 2021-06-19 04:13:09
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := PPU2C02.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := PPU2C02.cpp
+# a 
+utomatic
+# | := 
+# automatic
+# < := PPU2C02.cpp
+# automatic
+# ^ := PPU2C02.cpp
+# automatic
+# ? := PPU2C02.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  commands to execute (from `makefile', line 37):
+	$(CC) $(FLAGS) PPU2C02.cpp 
+	
+
+# Not a target:
+helper.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-23 18:05:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+CPU6502.o: CPU6502.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 13):
+	$(CC) $(FLAGS) CPU6502.cpp 
+	
+
+Memory.o: Memory.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-19 04:02:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Reha 
+sh=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 28):
+	$(CC) $(FLAGS) Memory.cpp 
+	
+
+# files hash-table stats:
+# Load=27/1024=3%, Rehash=0, Collisions=0/61=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Jun 19 11:04:50 2021
+
+ 

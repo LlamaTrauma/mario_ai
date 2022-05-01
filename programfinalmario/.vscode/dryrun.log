@@ -1,0 +1,15 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/gpoch/Documents/gabe/Gabes_Stuff/nesemu/programfinal'
+g++ -std=c++11 -g -c -Wall CPU6502.cpp 
+g++ -std=c++11 -g -c -Wall CPUBus.cpp 
+g++ -std=c++11 -g -c -Wall Emulator.cpp 
+g++ -std=c++11 -g -c -Wall helper.cpp 
+g++ -std=c++11 -g -c -Wall main.cpp 
+g++ -std=c++11 -g -c -Wall Memory.cpp 
+g++ -std=c++11 -g -c -Wall Nesrom.cpp 
+g++ -std=c++11 -g -c -Wall PPU2C02.cpp 
+g++ -std=c++11 -g -c -Wall PPUBus.cpp 
+g++ -std=c++11 -g -c -Wall Controller.cpp 
+g++ -g CPU6502.o CPUBus.o Emulator.o helper.o main.o Memory.o Nesrom.o PPU2C02.o PPUBus.o Controller.o -o mario -lstdc++ 
+make.exe: Leaving directory `c:/Users/gpoch/Documents/gabe/Gabes_Stuff/nesemu/programfinal'
+ 
